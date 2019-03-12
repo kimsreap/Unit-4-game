@@ -1,0 +1,99 @@
+img {
+    width: 100px;
+    height: 120px;
+}
+
+body {
+    margin: 5% 10% 0 25%;
+}
+.intro {
+    border: 2px solid #09090c;
+    font-size: 14pt;
+    font-weight: 200;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #351620;
+    width: 500px;
+    background-color: plum;
+}
+.intro p{
+    margin: 15px;
+}
+
+h1 {
+    font-size: 30pt;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    color: mediumseagreen;
+    line-height: 70px;
+}
+
+.state {
+    width: 500px;
+    height: 100px;
+    background-color: #48b348;
+    border: 2px solid black;
+}
+h3 {
+    font-size: 20pt;
+    font-weight: 200;
+    margin-left: 40px;
+    line-height: 50px;
+}
+h2 {
+    border: 2px solid black;
+    font-size: 15pt;
+    color: red;
+    background-color: antiquewhite;
+    width: 500px;
+    height: 50px;
+    line-height: 50px; 
+}
+
+#goalNum {
+    border: 1px solid black;
+    width: 500px;
+    height: 50px;
+    font-size: 20pt;
+    line-height: 50px;
+    text-align: center;
+}
+
+#currNum {
+    border: 1px solid #491111;
+    width: 500px;
+    height: 50px;
+    font-size: 20pt;
+    line-height: 50px;
+    text-align: center;
+}
+
+.someNum {
+    font-size: 20px;
+    width: 100px;
+    height: 50px;
+   background-color: #351620;
+}
+button {
+    font-size: 20px;
+    width: 100px;
+    height: 50px;
+   background-color: #2f49b9; 
+}
+
+.losse {
+    border: 2px solid yellow;
+    width: 500px;
+    height: 100px;
+    background-color: gray;
+    font-size: 20px;
+    line-height: 50px;
+}
+
+.win {
+    border: 2px solid yellow;
+    width: 500px;
+    height: 100px;
+    background-color: gray;
+    font-size: 20px;
+    line-height: 50px;
+}

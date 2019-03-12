@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Monkey Game</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body>
+    <div>
+        <h1>Monkey Game</h1>
+    </div>
+    <div class="intro">
+        <p>You will be ginven a random number at the start of the game</p>
+        
+        <p>There are four monkeys below. By clicking on the monkey, you will add a specific amount of point to your total </p>
+        
+        <p>You win the game by matching your total score to random 
+            number, you lose the game if 
+            your total score goes above the random number.
+        </p>
+        
+        <p>
+            The value of each monkey is hidden from you until you click on it
+        </p>
+        
+        <p>
+            Each time when the game start, the game will change the value of each monkey
+        </p>
+    </div>
+    
+    <div id="goalNum"></div>
+    <div id="currNum"></div>
+    <h2 id="result">Click the monkey to get number closer to the match... </h2> 
+    <div class="losse">Losses:<h3 id="losse"></h3></div>
+    <div class="win">Wins:<h3 id="win"></h3></div>
+    <div id="buttons"></div> 
+      
+    <button onclick="reset()">Restart</button>
+
+        
+            
+           
+            
+       
+    
+        
+        
+
+   
+
+    
+
+    
+
+    <script src="assets/javascript/game.js"></script>
+</body>
+</html>
